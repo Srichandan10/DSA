@@ -14,10 +14,11 @@ Node* moveToFront(Node* head){
 	}
 
 	secLast->next=NULL;
-	
+
 	last->next=head;
 
 	return last; //last will be new head
 
 
 }
+
